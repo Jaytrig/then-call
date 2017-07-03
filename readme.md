@@ -1,16 +1,16 @@
 
-##Install
+## Install
 ```javascript
 npm i then-call --save
 ```
 
-##Setup 
+## Setup 
 ```javascript
 var TaskMan = require('taskstack'),
     Queue   = new TaskMan.TaskManager('Manager'),
     Task    =  TaskMan.Task;
 ```
-##Usage
+## Usage
 ### When order doesn't matter
 ```javascript
 function createTask(TaskManager, name){
@@ -50,7 +50,7 @@ Queue.run(function(){
     console.log('all done');
 });
 ```
-######Output
+###### Output
 ```javascript
 //Finished Task called:  Task 4
 //Finished Task called:  Task 7
@@ -110,7 +110,7 @@ Queue.runNext(function(){
 // or for no callback
 // Queue.runNext();
 ```
-######Output
+###### Output
 ```javascript
 //Finished Task called:  Task 1
 //Finished Task called:  Task 2
