@@ -10,5 +10,13 @@
   "repository" :
   { "type" : "git"
   , "url" : "https://github.com/jaytig/then-call"
-  }
+  },
+  "homepage": "https://github.com/jaytig/then-call",
+    "keywords": [
+    "queue",
+    "tasks",
+    "task",
+    "callback",
+    "manager"
+  ]
 }
