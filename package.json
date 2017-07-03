@@ -4,8 +4,11 @@
   "description": "Callbacks made easy. then-call is callback handler that allows you run multple callbacks and then do something when they have finished.",
   "main": "then-call.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Jamie Tregilgas & Steven Yong",
+  "license": "ISC",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/jaytig/then-call"
+  }
 }
