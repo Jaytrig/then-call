@@ -65,7 +65,7 @@ Queue.run(function(){
 
 ### When order does matter
 ```javascript
-var TaskMan = require('then-call''),
+var TaskMan = require('then-call'),
     Queue   = new TaskMan.TaskManager('Manager'),
     Task    =  TaskMan.Task;
 Math.random();
@@ -129,7 +129,7 @@ Queue.runNext(function(){
 ```javascript
 
 //Set up
-var TaskMan = require('then-call'');
+var TaskMan = require('then-call');
 var Queue   = new TaskMan.TaskManager('Manager');
 var Task    =  TaskMan.Task;
 
