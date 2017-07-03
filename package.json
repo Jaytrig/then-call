@@ -1,0 +1,11 @@
+{
+  "name": "then-call",
+  "version": "1.0.1",
+  "description": "Callbacks made easy. then-call is callback handler that allows you run multple callbacks and then do something when they have finished.",
+  "main": "then-call.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
