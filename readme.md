@@ -1,12 +1,12 @@
-#Setup 
-```
+# Setup 
+```javascript
 var TaskMan = require('then-call'),
     Queue   = new TaskMan.TaskManager('Manager'),
     Task    =  TaskMan.Task;
 ```
 # Usage
 ## When order doesn't matter
-```
+```javascript
 function createTask(TaskManager, name){
     return new Task(name, function(){
         setTimeout(() => {
@@ -44,8 +44,8 @@ Queue.run(function(){
     console.log('all done');
 });
 ```
-######Output
-```
+###### Output
+```javascript
 //Finished Task called:  Task 4
 //Finished Task called:  Task 7
 //Finished Task called:  Task 6
@@ -58,7 +58,7 @@ Queue.run(function(){
 ```
 
 ## When order does matter
-```
+```javascript
 var TaskMan = require('then-call'),
     Queue   = new TaskMan.TaskManager('Manager'),
     Task    =  TaskMan.Task;
@@ -104,8 +104,8 @@ Queue.runNext(function(){
 // or for no callback
 // Queue.runNext();
 ```
-######Output
-```
+###### Output
+```javascript
 //Finished Task called:  Task 1
 //Finished Task called:  Task 2
 //Finished Task called:  Task 3
@@ -120,7 +120,7 @@ Queue.runNext(function(){
 
 ## Functions
 
-```
+```javascript
 
 //Set up
 var TaskMan = require('then-call');
